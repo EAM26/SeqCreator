@@ -13,4 +13,6 @@ module org.example.seqcreator {
 
     opens org.example.seqcreator to javafx.fxml;
     exports org.example.seqcreator;
+    exports org.example.seqcreator.controller;
+    opens org.example.seqcreator.controller to javafx.fxml;
 }

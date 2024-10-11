@@ -1,4 +1,4 @@
-package org.example.seqcreator;
+package org.example.seqcreator.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
