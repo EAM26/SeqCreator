@@ -1,0 +1,53 @@
+# Maven build directory
+target/
+
+# Maven wrapper files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+
+# Maven wrapper executables
+mvnw
+mvnw.cmd
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# OS-specific files for Windows
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.lock
+
+# Java specific files
+*.class
+
+# Ignore compiled class files
+**/target/classes/
+**/target/test-classes/
+
+# Ignore IDE cache files
+*.idx
+*.cache
+
+# Ignore Maven-specific files (optional, if you don't want to track local Maven cache)
+.m2/
+
+# JavaFX dependencies and resources
+# No need to exclude specific JavaFX-related files since they should be in src/main/resources/ or src/main/java
+
+# Backup and packaging files
+*.jar
+*.war
+*.ear
+/src/main/java/org/example/helloworld/Contstants.java
+/src/main/java/org/example/helloworld/Constants.java
