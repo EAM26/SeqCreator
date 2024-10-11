@@ -1,16 +1,20 @@
 package org.example.seqcreator.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Camera {
+/* todo
+   Generate id automatically and be unique
+*/
     private Long id;
     private String name;
     private List<String> ptzList;
 
-    public Camera(Long id, String name, List<String> ptzList) {
+    public Camera(Long id, String name) {
         this.id = id;
         this.name = name;
-        this.ptzList = ptzList;
+        this.ptzList = new ArrayList<>();
     }
 
     public Long getId() {

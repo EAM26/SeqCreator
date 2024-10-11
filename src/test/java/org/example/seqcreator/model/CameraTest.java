@@ -3,7 +3,6 @@ package org.example.seqcreator.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 class CameraTest {
@@ -12,7 +11,7 @@ class CameraTest {
 
     @BeforeEach
     void setUp() {
-        camera = new Camera(1L, "Camera1", new ArrayList<>());
+        camera = new Camera(1L, "Camera1");
     }
 
     @Test
